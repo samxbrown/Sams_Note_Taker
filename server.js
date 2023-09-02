@@ -4,7 +4,7 @@ const path = require('path');
 // Import the feedback router
 const api = require('./routes');
 
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 
 const app = express();
 
