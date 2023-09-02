@@ -10,7 +10,8 @@ router.post("/notes",(req,res) => {
     // console.log(req.body)
     db.push(req.body)
     console.log(db)
-    fs.writeFileSync("./db/db.json", json.stringify(db))
+    fs.writeFileSync("./db/db.json", JSON.stringify(db))
+    res.json(db)
 })
 
 module.exports = router;
