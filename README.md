@@ -22,7 +22,8 @@ This repository contains a codebase for a Note Taker that provides the user prom
 
 
 ## Screenshot
-
+![Screenshot 2023-09-02 at 2 35 22 PM](https://github.com/samxbrown/Sams_Note_Taker/assets/135293566/011d5731-5fab-4eba-a9ea-e9125d3a5b02)
+https://sams-note-taker-fdde0990df8c.herokuapp.com/notes
 
 ## Contribution
 I would like to thank my tutor Abdullah Al Hilfi for assistance with creating this code.
