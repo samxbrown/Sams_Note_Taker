@@ -2,9 +2,9 @@ const express = require('express');
 const path = require('path');
 
 // Import the feedback router
-const api = require('./public/index.html');
+const api = require('./routes');
 
-const PORT = 3001;
+const PORT = 3002;
 
 const app = express();
 
@@ -25,8 +25,8 @@ app.get('/', (req, res) =>
 );
 
 // This view route is a GET route for the feedback page
-app.get('', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
 app.listen(PORT, () =>
